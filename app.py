@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 import plotly.express as px
 
-df= pd.read_csv(r"C:\Users\Yogesh kangare\Documents\Capstone project\Part-3-Interactive-Dashboard\dataset.csv")
+df= pd.read_csv("C:\Users\Yogesh kangare\Documents\Capstone project\Part-3-Interactive-Dashboard\dataset.csv")
 
 genre = st.selectbox(
     "Select Genre",

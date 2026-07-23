@@ -7,7 +7,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Spotify Tracks Explorer", layout="wide")
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "spotify_tracks.csv")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "spotify.csv")
 
 path = ("data\spotify.csv")
 

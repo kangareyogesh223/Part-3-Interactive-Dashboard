@@ -9,7 +9,7 @@ st.set_page_config(page_title="Spotify Tracks Explorer", layout="wide")
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "spotify_tracks.csv")
 
-path = (r"C:\Users\Yogesh kangare\Documents\Capstone project\3_test\spotify-dashboard\spotify-dashboard\data\spotify_tracks.csv")
+path = ("data\spotify.csv")
 
 
 @st.cache_data
